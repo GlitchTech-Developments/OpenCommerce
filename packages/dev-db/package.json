@@ -1,0 +1,8 @@
+{
+	"name": "dev-db",
+	"private": true,
+	"scripts": {
+		"build:image": "docker buildx create --use && docker buildx build -t medusa-db --file Dockerfile --load .",
+		"start:container": "docker run --name medusa-db-container -p 5432:5432 -d medusa-db"
+	}
+}
