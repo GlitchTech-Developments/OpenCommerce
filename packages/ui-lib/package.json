@@ -1,0 +1,30 @@
+{
+	"name": "@open-commerce/ui-lib",
+	"private": true,
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist/**"
+	],
+	"scripts": {
+		"build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+		"clean": "rm -rf dist",
+		"dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
+		"lint": "eslint \"src/**/*.ts*\"",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.2.0",
+		"@types/react-dom": "^18.2.0",
+		"eslint": "^8.48.0",
+		"eslint-config-custom": "workspace:*",
+		"react": "^18.2.0",
+		"tsconfig": "workspace:*",
+		"tsup": "^7.2.0",
+		"typescript": "^5.2.2"
+	}
+}
