@@ -22,8 +22,8 @@
 
 ### Backend - (Medusa)
 
--   [ ] Initial setup
--   [ ] Core config setup
+-   [x] Initial setup
+-   [x] Core config setup
 -   [ ] Documentation on deploy flow
 
 ### Monorepo logic
