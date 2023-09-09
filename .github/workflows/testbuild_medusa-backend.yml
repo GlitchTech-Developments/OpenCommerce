@@ -1,4 +1,4 @@
-name: Medusa-Connect - Build and Lint
+name: Medusa-Backend - Build and Lint
 
 on:
     push:
@@ -25,9 +25,9 @@ jobs:
               run: pnpm install
 
             - name: Build with PNPM
-              run: pnpm run build --filter @open-commerce/medusa-connect
+              run: pnpm run build --filter @open-commerce/medusa-backend
 
             - name: Lint with PNPM
-              run: pnpm run lint --filter @open-commerce/medusa-connect
+              run: pnpm run lint --filter @open-commerce/medusa-backend
 
             # Add additional steps here as needed, such as testing or deploying the package.

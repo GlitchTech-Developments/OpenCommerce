@@ -17,11 +17,11 @@
 
 ## CI/CD Status
 
-| Branch                  | Status                                                                                                                                                                                                                                                        |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| main - medusa           | [![Build Status medusa](https://dev.azure.com/glitchtechdevs/OpenCommerce/_apis/build/status/GlitchTech-Developments.OpenCommerce?branchName=main)](https://dev.azure.com/glitchtechdevs/OpenCommerce/_build/latest?definitionId=1&branchName=main)           |
-| main - ui-lib           | [![Build Status ui-lib](https://dev.azure.com/glitchtechdevs/OpenCommerce/_apis/build/status/GlitchTech-Developments.OpenCommerce?branchName=main)](https://dev.azure.com/glitchtechdevs/OpenCommerce/_build/latest?definitionId=1&branchName=main)           |
-| main - medusa-connector | [![Build Status medusa-connector](https://dev.azure.com/glitchtechdevs/OpenCommerce/_apis/build/status/GlitchTech-Developments.OpenCommerce?branchName=main)](https://dev.azure.com/glitchtechdevs/OpenCommerce/_build/latest?definitionId=1&branchName=main) |
+| Branch                  | Status                                                                                                                                               |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| main - medusa           | [![Build Status medusa](https://github.com/GlitchTech-Developments/OpenCommerce)](https://github.com/GlitchTech-Developments/OpenCommerce)           |
+| main - ui-lib           | [![Build Status ui-lib](https://github.com/GlitchTech-Developments/OpenCommerce)](https://github.com/GlitchTech-Developments/OpenCommerce)           |
+| main - medusa-connector | [![Build Status medusa-connector](https://github.com/GlitchTech-Developments/OpenCommerce)](https://github.com/GlitchTech-Developments/OpenCommerce) |
 
 ## Roadmap
 

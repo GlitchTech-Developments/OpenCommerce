@@ -1,5 +1,5 @@
 {
-	"name": "medusa",
+	"name": "@open-commerce/medusa-backend",
 	"version": "0.0.1",
 	"description": "MedusaJS backend",
 	"author": "GlitchTech Developments",
