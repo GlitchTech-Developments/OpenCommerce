@@ -11,8 +11,7 @@
 		"build": "tsc",
 		"clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
 		"dev": "tsc -w",
-		"lint": "eslint \"src/**/*.ts*\"",
-		"test": "jest"
+		"lint": "eslint \"src/**/*.ts*\""
 	},
 	"dependencies": {
 		"@medusajs/medusa-js": "^6.0.3",

@@ -1,0 +1,33 @@
+name: Medusa-Connect - Build and Lint
+
+on:
+    push:
+        branches:
+            - main # You can specify the branch you want to trigger this workflow on
+
+jobs:
+    build-and-lint:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v2
+              with:
+                  node-version: 18 # You can specify your desired Node.js version
+
+            - name: Set up PNPM
+              uses: pnpm/action-setup@v2
+
+            - name: Install package dependencies
+              run: pnpm install
+
+            - name: Build with Bun
+              run: pnpm run build --filter @open-commerce/medusa-connect
+
+            - name: Lint with Bun
+              run: pnpm run lint --filter @open-commerce/medusa-connect
+
+            # Add additional steps here as needed, such as testing or deploying the package.

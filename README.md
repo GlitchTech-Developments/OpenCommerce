@@ -15,6 +15,14 @@
 
 > In this project I'll be building a ECommerce stack that is ready for Lamda, Edge and/or k8s.
 
+## CI/CD Status
+
+| Branch                  | Status                                                                                                                                                                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| main - medusa           | [![Build Status medusa](https://dev.azure.com/glitchtechdevs/OpenCommerce/_apis/build/status/GlitchTech-Developments.OpenCommerce?branchName=main)](https://dev.azure.com/glitchtechdevs/OpenCommerce/_build/latest?definitionId=1&branchName=main)           |
+| main - ui-lib           | [![Build Status ui-lib](https://dev.azure.com/glitchtechdevs/OpenCommerce/_apis/build/status/GlitchTech-Developments.OpenCommerce?branchName=main)](https://dev.azure.com/glitchtechdevs/OpenCommerce/_build/latest?definitionId=1&branchName=main)           |
+| main - medusa-connector | [![Build Status medusa-connector](https://dev.azure.com/glitchtechdevs/OpenCommerce/_apis/build/status/GlitchTech-Developments.OpenCommerce?branchName=main)](https://dev.azure.com/glitchtechdevs/OpenCommerce/_build/latest?definitionId=1&branchName=main) |
+
 ## Roadmap
 
 OpenCommerce is currently in the planning phase. The roadmap will be prone to change as we go along.
