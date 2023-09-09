@@ -1,5 +1,5 @@
 {
-	"name": "@open-commerce/ui-lib",
+	"name": "@open-commerce/medusa-connect",
 	"private": true,
 	"main": "./dist/index.js",
 	"source": "./src/index.ts",

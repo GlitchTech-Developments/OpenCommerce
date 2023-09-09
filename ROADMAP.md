@@ -28,4 +28,14 @@
 
 ### Monorepo logic
 
--   [ ] shared library package for MeduseJS connection from web + desktop app (Tauri app)
+#### shared library package for MeduseJS connection from web + desktop app (Tauri app)
+
+-   [ ] Initial setup
+-   [ ] Basic logic
+-   [ ] Basic UI implementations (if needed)
+
+#### shared library package for UI components
+
+-   [ ] Initial setup
+-   [ ] Basic logic
+-   [ ] Basic UI elements with core tailwindcss setup
