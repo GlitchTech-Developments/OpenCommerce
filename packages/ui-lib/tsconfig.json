@@ -1,9 +1,15 @@
 {
 	"compilerOptions": {
-		"lib": ["ES2015"],
+		"lib": ["ES2015", "DOM"],
 		"module": "CommonJS",
+		"moduleResolution": "node",
+		"jsx": "react-jsx",
 		"outDir": "./dist",
-		"rootDir": "./src"
+		"rootDir": "./src",
+		"paths": {
+			"@utils/*": ["./src/utils/*"],
+			"@elements/*": ["./src/elements/*"]
+		}
 	},
 	"exclude": ["node_modules"],
 	"extends": "tsconfig/base.json",
