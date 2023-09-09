@@ -17,15 +17,15 @@
 		"@medusajs/medusa-js": "^6.0.3",
 		"@medusajs/medusa": "^1.15.0",
 		"medusa-react": "^9.0.4",
-		"@tanstack/react-query": "^4.35.0",
-		"@types/node": "^20.5.9",
-		"eslint": "^8.48.0",
-		"eslint-config-custom": "workspace:*"
+		"@tanstack/react-query": "^4.35.0"
 	},
 	"devDependencies": {
+		"@open-commerce/eslint-config": "workspace:*",
 		"tsconfig": "workspace:*",
 		"react": "^18.2.0",
 		"@types/react": "^18.2.0",
+		"@types/node": "^20.5.9",
+		"eslint": "^8.48.0",
 		"typescript": "^5.2.2"
 	}
 }

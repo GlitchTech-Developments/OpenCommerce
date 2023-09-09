@@ -17,11 +17,9 @@
 
 ## CI/CD Status
 
-| Branch                  | Status                                                                                                                                               |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| main - medusa           | [![Build Status medusa](https://github.com/GlitchTech-Developments/OpenCommerce)](https://github.com/GlitchTech-Developments/OpenCommerce)           |
-| main - ui-lib           | [![Build Status ui-lib](https://github.com/GlitchTech-Developments/OpenCommerce)](https://github.com/GlitchTech-Developments/OpenCommerce)           |
-| main - medusa-connector | [![Build Status medusa-connector](https://github.com/GlitchTech-Developments/OpenCommerce)](https://github.com/GlitchTech-Developments/OpenCommerce) |
+[![Medusa-Connect - Build and Lint](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-connect.yml/badge.svg)](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-connect.yml)
+[![UI-Library - Build and Lint](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_ui-lib.yml/badge.svg)](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_ui-lib.yml)
+[![Medusa-Connect - Build and Lint](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-connect.yml/badge.svg)](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-connect.yml)
 
 ## Roadmap
 

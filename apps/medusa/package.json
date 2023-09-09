@@ -22,7 +22,8 @@
 		"seed": "cross-env medusa seed -f ./data/seed.json",
 		"start": "cross-env npm run build && medusa start",
 		"start:custom": "cross-env npm run build && node --preserve-symlinks --trace-warnings index.js",
-		"dev": "cross-env npm run build:server && medusa develop"
+		"dev": "cross-env npm run build:server && medusa develop",
+		"lint": "eslint ./src --ext .ts"
 	},
 	"dependencies": {
 		"@medusajs/admin": "^7.0.1",
@@ -61,7 +62,8 @@
 		"rimraf": "^3.0.2",
 		"ts-jest": "^27.0.7",
 		"ts-loader": "^9.2.6",
-		"typescript": "^4.5.2"
+		"typescript": "^4.5.2",
+		"@open-commerce/eslint-config": "workspace:*"
 	},
 	"jest": {
 		"globals": {
