@@ -17,8 +17,8 @@
 
 ## CI/CD Status
 
-[![Medusa-Backend - Build and Lint](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-backend.yml/badge.svg)](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-backend.yml)
-[![UI-Library - Build and Lint](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_ui-lib.yml/badge.svg)](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_ui-lib.yml)
+[![Medusa-Backend - Build and Lint](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-backend.yml/badge.svg)](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-backend.yml) <br />
+[![UI-Library - Build and Lint](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_ui-lib.yml/badge.svg)](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_ui-lib.yml) <br />
 [![Medusa-Connect - Build and Lint](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-connect.yml/badge.svg)](https://github.com/GlitchTech-Developments/OpenCommerce/actions/workflows/testbuild_medusa-connect.yml)
 
 ## Roadmap
